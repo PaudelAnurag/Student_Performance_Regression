@@ -21,7 +21,7 @@ label_encoders = joblib.load(MODEL_DIR /"label_encoders.pkl")
 
 st.set_page_config(page_title="Student Performance Prediction")
 
-st.title("🎓 Student Performance Prediction")
+st.title(" Student Performance Prediction")
 st.write("Predict a student's final grade (G3).")
 
 # ==============================
@@ -198,4 +198,4 @@ if st.button("Predict G3"):
 
     prediction = max(0, min(20, prediction))
 
-    st.success(f"🎯 Predicted Final Grade (G3): **{prediction:.2f}/20**")
+    st.success(f" Predicted Final Grade (G3): **{prediction:.2f}/20**")
